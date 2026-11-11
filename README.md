@@ -1,8 +1,9 @@
-# AI 经营诊断 · 工作流与看板
+# AI经营看板与智能助手 & 诊断配置后台
 
-面向 AI 产品经理和开发者的源码查阅项目：商家可以查询指标、了解经营知识、诊断经营问题；运营人员在 AIDD 后台维护诊断框架、策略和行动映射。当前示例指标与店铺数据为合成演示数据。
+AI经营看板与智能助手：面向内容电商商家的AI经营看板，内嵌智能助手。看板默认登录模拟商家账号与模拟经营数据，可以进入智能助手查询指标、了解经营知识、诊断经营问题。
+诊断配置后台：面向运营人员的诊断资产、策略配置平台，用于向看板与智能助手提供经营分析方法。
 
-[在线体验](https://ai-business-diagnosis-workflow.songge-huster.chatgpt.site/#merchant) · [AIDD 配置后台](https://ai-business-diagnosis-workflow.songge-huster.chatgpt.site/#aidd) · [原扣子工作流](https://www.coze.cn/work_flow?workflow_id=7699762508375294003&space_id=7699761599875858474)
+[在线体验](https://ai-business-diagnosis-workflow.songge-huster.chatgpt.site/#merchant) ·[原扣子工作流](https://www.coze.cn/work_flow?workflow_id=7699762508375294003&space_id=7699761599875858474)
 
 扣子编辑链接需要相应空间权限；公开查阅节点与提示词请直接阅读本仓库。
 
