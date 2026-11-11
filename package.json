@@ -1,0 +1,15 @@
+{
+  "name": "ai-business-diagnosis",
+  "private": true,
+  "type": "module",
+  "description": "Merchant diagnosis workflow and dashboard source reference",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "build": "node site/scripts/build-assets.mjs",
+    "test": "node scripts/check-publication.mjs && node --test site/tests/*.test.mjs",
+    "dev": "node site/scripts/preview.mjs",
+    "check:publication": "node scripts/check-publication.mjs"
+  }
+}
