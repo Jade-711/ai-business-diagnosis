@@ -1,0 +1,1132 @@
+[
+  {
+    "id": "A01",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "帮我分析近7天全店整体交易的问题，并给出下一步建议。",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A01"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A02",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "帮我分析近7天全店整体交易是否存在成交回落问题。",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A02"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A03",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "诊断近7天全店整体交易，有没有成交回落？",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A03"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A04",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "帮我分析近7天全店整体交易为什么下降。",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A04"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A05",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天全店整体转化的问题，应该先核查哪里？",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A05"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A06",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天全店整体流量，主要异常是什么？",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A06"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A07",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天全店商品供给，动销率下降是不是动销商品变少？",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A07"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A08",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天全店服务体验，哪些问题有证据支持？",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A08"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A09",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天全店用户经营，用户减少主要体现在哪一类？",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A09"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A10",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "帮我分析近7天直播整体经营的问题及下一步行动。",
+      "pageContext": {
+        "fieldKey": "live",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A10"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A11",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天直播曝光环节，为什么观看人数减少？",
+      "pageContext": {
+        "fieldKey": "live",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A11"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A12",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天直播曝光环节，应该优先看曝光还是承接？",
+      "pageContext": {
+        "fieldKey": "live",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A12"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A13",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天直播留人环节，人均观看时长和点赞有什么问题？",
+      "pageContext": {
+        "fieldKey": "live",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A13"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A14",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天直播商品点击环节的问题。",
+      "pageContext": {
+        "fieldKey": "live",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A14"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A15",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天直播成交环节的问题，先核查哪些对象？",
+      "pageContext": {
+        "fieldKey": "live",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A15"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A16",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天直播售后，退款率升高是不是退款金额增加？",
+      "pageContext": {
+        "fieldKey": "live",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A16"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A17",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天短视频内容供给问题。",
+      "pageContext": {
+        "fieldKey": "video",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A17"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A18",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天短视频曝光问题，人数和次数变化说明什么？",
+      "pageContext": {
+        "fieldKey": "video",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A18"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A19",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天短视频曝光问题，给我具体结论和行动。",
+      "pageContext": {
+        "fieldKey": "video",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A19"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A20",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天短视频商品点击环节的问题及建议。",
+      "pageContext": {
+        "fieldKey": "video",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A20"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A21",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天短视频成交环节的问题。",
+      "pageContext": {
+        "fieldKey": "video",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A21"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A22",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "帮我诊断近7天短视频曝光的封面问题。",
+      "pageContext": {
+        "fieldKey": "video",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A22"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A23",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天货架商品供给的问题。",
+      "pageContext": {
+        "fieldKey": "shelf",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A23"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A24",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天货架点击环节的问题及行动建议。",
+      "pageContext": {
+        "fieldKey": "shelf",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A24"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A25",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天货架加购环节的问题。",
+      "pageContext": {
+        "fieldKey": "shelf",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A25"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A26",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天货架成交环节，订单没少为什么金额下降？",
+      "pageContext": {
+        "fieldKey": "shelf",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A26"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A27",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天达人合作成交的问题，佣金增加是不是投产变差？",
+      "pageContext": {
+        "fieldKey": "creator",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A27"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A28",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天达人合作售后问题，退款率上升说明什么？",
+      "pageContext": {
+        "fieldKey": "creator",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A28"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A29",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "帮我诊断近7天直播曝光中的标题问题。",
+      "pageContext": {
+        "fieldKey": "live",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A29"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A30",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "帮我分析近7天全店经营表现，优先给我最值得处理的问题。",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A30"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A31",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "帮我分析近7天全店成交目标的差距，下一步应该怎么做？",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A31"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A32",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "帮我分析近7天全店成交目标完成情况。",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A32"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A33",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "帮我分析近7天全店成交目标的完成率和差距。",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A33"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A34",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "那这一块呢？",
+      "pageContext": {},
+      "history": [
+        {
+          "role": "user",
+          "content": "我只想继续看近7天直播的整体经营情况。",
+          "context": {
+            "fieldKey": "live",
+            "period": "week",
+            "metricKey": ""
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "好的，后续讨论范围为近7天直播整体经营。",
+          "context": {
+            "fieldKey": "live",
+            "period": "week",
+            "metricKey": ""
+          }
+        }
+      ],
+      "chatId": "prepare-only-A34"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "A35",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天货架点击环节的问题及行动建议。",
+      "pageContext": {
+        "fieldKey": "shelf",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A35"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "D01",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "近7天全店成交金额是多少？",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-D01"
+    },
+    "expected": "data"
+  },
+  {
+    "id": "D02",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "昨日直播观看人数是多少？",
+      "pageContext": {
+        "fieldKey": "live",
+        "period": "day",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-D02"
+    },
+    "expected": "data"
+  },
+  {
+    "id": "D03",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "近7天短视频曝光次数是多少？",
+      "pageContext": {
+        "fieldKey": "video",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-D03"
+    },
+    "expected": "data"
+  },
+  {
+    "id": "D04",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "近7天货架曝光点击率是多少？",
+      "pageContext": {
+        "fieldKey": "shelf",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-D04"
+    },
+    "expected": "data"
+  },
+  {
+    "id": "D05",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "近7天全店预估佣金是多少？",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-D05"
+    },
+    "expected": "data"
+  },
+  {
+    "id": "D06",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "近7天全店成交金额和成交订单数分别是多少？",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-D06"
+    },
+    "expected": "data"
+  },
+  {
+    "id": "D07",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "近7天全店金额退款率（支付日）是多少？",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-D07"
+    },
+    "expected": "data"
+  },
+  {
+    "id": "K01",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "什么是商品曝光次数？它和曝光人数有什么区别？",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-K01"
+    },
+    "expected": "knowledge"
+  },
+  {
+    "id": "K02",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "成交金额除以成交订单数就是客单价吗？请解释指标口径。",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-K02"
+    },
+    "expected": "knowledge"
+  },
+  {
+    "id": "K03",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "商品点击率是什么意思？用10000次曝光、800次点击举例解释。",
+      "pageContext": {
+        "fieldKey": "shelf",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-K03"
+    },
+    "expected": "knowledge"
+  },
+  {
+    "id": "K04",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "退款率从5%变成8%，就说明退款金额增加吗？请解释统计口径。",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-K04"
+    },
+    "expected": "knowledge"
+  },
+  {
+    "id": "K05",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "什么是商品动销率？为什么动销率下降不一定是动销商品减少？",
+      "pageContext": {
+        "fieldKey": "shelf",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-K05"
+    },
+    "expected": "knowledge"
+  },
+  {
+    "id": "K06",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "如何制定成交目标？只有本期成交金额能预测下期一定达标吗？",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-K06"
+    },
+    "expected": "knowledge"
+  },
+  {
+    "id": "K07",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "曝光观看率下降就能确认直播标题有问题吗？请解释指标口径和判断限制。",
+      "pageContext": {
+        "fieldKey": "live",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-K07"
+    },
+    "expected": "knowledge"
+  },
+  {
+    "id": "R01",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天全店整体流量，同时核对点击次数除以曝光次数。",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A06"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "R02",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天直播成交，核对每单成交金额的变化。",
+      "pageContext": {
+        "fieldKey": "live",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A15"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "R03",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天短视频成交环节，说明人数转化率的分子和分母。",
+      "pageContext": {
+        "fieldKey": "video",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A21"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "R04",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天达人合作售后，请同时看退款绝对额和比例。",
+      "pageContext": {
+        "fieldKey": "creator",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A28"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "R05",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天直播商品点击环节，观看人数是否已经提供？",
+      "pageContext": {
+        "fieldKey": "live",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A14"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "R06",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天全店商品供给，分别看在架规模和动销商品。",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A07"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "R07",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "那这一块呢？",
+      "pageContext": {},
+      "history": [
+        {
+          "role": "user",
+          "content": "我只想继续看近7天直播的整体经营情况。",
+          "context": {
+            "fieldKey": "live",
+            "period": "week",
+            "metricKey": ""
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "好的，后续讨论范围为近7天直播整体经营。",
+          "context": {
+            "fieldKey": "live",
+            "period": "week",
+            "metricKey": ""
+          }
+        }
+      ],
+      "chatId": "prepare-only-A34"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "R08",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "那这一块呢？",
+      "pageContext": {},
+      "history": [
+        {
+          "role": "user",
+          "content": "只查近7天直播成交金额数值。",
+          "context": {
+            "fieldKey": "live",
+            "period": "week",
+            "metricKey": "gmv"
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "好的，后续继续查近7天直播成交金额。",
+          "context": {
+            "fieldKey": "live",
+            "period": "week",
+            "metricKey": "gmv"
+          }
+        }
+      ],
+      "chatId": "prepare-only-D01"
+    },
+    "expected": "data"
+  },
+  {
+    "id": "R09",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "那这个指标呢？",
+      "pageContext": {},
+      "history": [
+        {
+          "role": "user",
+          "content": "商品曝光次数是什么？"
+        },
+        {
+          "role": "assistant",
+          "content": "它是按次计数；曝光人数按人去重。"
+        }
+      ],
+      "chatId": "prepare-only-K01"
+    },
+    "expected": "knowledge"
+  },
+  {
+    "id": "R10",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "只查询近7天直播成交金额数值，不用分析。",
+      "pageContext": {},
+      "history": [
+        {
+          "role": "user",
+          "content": "我只想继续看近7天直播的整体经营情况。",
+          "context": {
+            "fieldKey": "live",
+            "period": "week",
+            "metricKey": ""
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "好的，后续讨论范围为近7天直播整体经营。",
+          "context": {
+            "fieldKey": "live",
+            "period": "week",
+            "metricKey": ""
+          }
+        }
+      ],
+      "chatId": "prepare-only-A34"
+    },
+    "expected": "data"
+  },
+  {
+    "id": "R11",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "什么是观看人数？请解释指标口径。",
+      "pageContext": {},
+      "history": [
+        {
+          "role": "user",
+          "content": "我只想继续看近7天直播的整体经营情况。",
+          "context": {
+            "fieldKey": "live",
+            "period": "week",
+            "metricKey": ""
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "好的，后续讨论范围为近7天直播整体经营。",
+          "context": {
+            "fieldKey": "live",
+            "period": "week",
+            "metricKey": ""
+          }
+        }
+      ],
+      "chatId": "prepare-only-A34"
+    },
+    "expected": "knowledge"
+  },
+  {
+    "id": "R12",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "继续分析近7天直播整体经营的问题。",
+      "pageContext": {},
+      "history": [
+        {
+          "role": "user",
+          "content": "只查近7天直播成交金额数值。",
+          "context": {
+            "fieldKey": "live",
+            "period": "week",
+            "metricKey": "gmv"
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "好的，后续继续查近7天直播成交金额。",
+          "context": {
+            "fieldKey": "live",
+            "period": "week",
+            "metricKey": "gmv"
+          }
+        }
+      ],
+      "chatId": "prepare-only-D01"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "R13",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天直播整体经营，只因观看来源收缩就应该补排时段吗？",
+      "pageContext": {
+        "fieldKey": "live",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A10"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "R14",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天达人合作成交，订单下滑就应立即调整达人商品匹配吗？",
+      "pageContext": {
+        "fieldKey": "creator",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A27"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "R15",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天全店成交目标差距。商品列表能提供支付日退款明细吗？",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A32"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "R16",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "分析近7天货架加购转化，区分已经提供的同批次观察摘要和尚缺明细。",
+      "pageContext": {
+        "fieldKey": "shelf",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-A25"
+    },
+    "expected": "diagnosis"
+  },
+  {
+    "id": "R17",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "退款金额从5000元降到4000元，成交金额从100000元降到50000元，退款率怎么变？这能说明退款金额增加吗？请解释口径。",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-K04"
+    },
+    "expected": "knowledge"
+  },
+  {
+    "id": "R18",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "请解释比率口径：分子从10降到8、分母从20降到10，比率从多少变到多少？为什么分子变少比率还能升？",
+      "pageContext": {
+        "fieldKey": "shelf",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-K05"
+    },
+    "expected": "knowledge"
+  },
+  {
+    "id": "R19",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "商品点击率如何计算？20000次曝光和1600次点击是多少？比较时需要哪些相同口径？",
+      "pageContext": {
+        "fieldKey": "shelf",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-K03"
+    },
+    "expected": "knowledge"
+  },
+  {
+    "id": "R20",
+    "request": {
+      "sellerId": "DEMO_10001",
+      "question": "如何制定下一个月的成交目标？需要先确定哪些周期和统计口径，能保证达标吗？",
+      "pageContext": {
+        "fieldKey": "overview",
+        "period": "week",
+        "metricKey": ""
+      },
+      "history": [],
+      "chatId": "prepare-only-K06"
+    },
+    "expected": "knowledge"
+  }
+]
