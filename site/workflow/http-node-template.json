@@ -1,0 +1,92 @@
+{
+  "id": "168992",
+  "type": "45",
+  "meta": {
+    "position": {
+      "x": 2684.9522510231927,
+      "y": -4661.586289222376
+    }
+  },
+  "data": {
+    "nodeMeta": {
+      "title": "HTTP 请求",
+      "icon": "https://lf3-static.bytednsdoc.com/obj/eden-cn/dvsmryvd_avi_dvsm/ljhwZthlaukjlkulzlp/icon/icon-HTTP.png",
+      "description": "用于发送API请求，从接口返回数据",
+      "mainColor": "#3071F2",
+      "subTitle": "HTTP 请求"
+    },
+    "inputParameters": [],
+    "inputs": {
+      "apiInfo": {
+        "method": "POST",
+        "url": "https://api.deepseek.com/responses"
+      },
+      "body": {
+        "bodyType": "JSON",
+        "bodyData": {
+          "json": "{\"model\":\"deepseek-flash\",\"input\":\"只回复OK\",\"reasoning\":{\"effort\":\"none\"},\"max_output_tokens\":32,\"store\":false}",
+          "binary": {
+            "fileURL": {
+              "type": "string",
+              "value": {
+                "type": "ref",
+                "content": {
+                  "source": "block-output",
+                  "blockID": "",
+                  "name": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "headers": [],
+      "params": [],
+      "auth": {
+        "authType": "BEARER_AUTH",
+        "authData": {
+          "customData": {
+            "addTo": "header"
+          },
+          "bearerTokenData": [
+            {
+              "name": "token",
+              "input": {
+                "type": "string",
+                "value": {
+                  "type": "literal",
+                  "content": "",
+                  "rawMeta": {
+                    "type": 1
+                  }
+                }
+              },
+              "type": "string"
+            }
+          ]
+        },
+        "authOpen": true
+      },
+      "setting": {
+        "timeout": 60,
+        "retryTimes": ""
+      },
+      "settingOnError": {}
+    },
+    "outputs": [
+      {
+        "type": "string",
+        "name": "body"
+      },
+      {
+        "type": "integer",
+        "name": "statusCode"
+      },
+      {
+        "type": "string",
+        "name": "headers"
+      }
+    ],
+    "settingOnError": {}
+  }
+}

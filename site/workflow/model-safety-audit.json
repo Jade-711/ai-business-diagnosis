@@ -1,0 +1,128 @@
+{
+  "baseline": "Coze v0.0.13 / git 7ee2294",
+  "mainNodes": 21,
+  "mainEdges": 25,
+  "unchangedNodes": [
+    {
+      "id": "100001",
+      "title": "开始",
+      "sha256": "e133da56ffe73aead693dbba68197121bdad31f4c739315d7eb81f8e15887d37"
+    },
+    {
+      "id": "410002",
+      "title": "需要模型理解吗？",
+      "sha256": "46c7f201ca0aaa05f2a2559fa3741b2aee181f11314a088b5a1241778e3fc290"
+    },
+    {
+      "id": "110006",
+      "title": "选择经营任务",
+      "sha256": "6c21a0cb75a25b4536af6b2554545d4d071f3f1c0dcd71b83e7110d4df84e9f7"
+    },
+    {
+      "id": "210002",
+      "title": "读取指标并匹配诊断策略",
+      "sha256": "bf0c7f5d28d10792fc3607337a932d63c3f25e45cc85dca0ef9081d7c09895a1"
+    },
+    {
+      "id": "410010",
+      "title": "先展示已取得的指标",
+      "sha256": "e77c866f665f5b4edd67abdadf578c333fa7fde4a759528915201fc3c3ae66dd"
+    },
+    {
+      "id": "410020",
+      "title": "回答通过核查了吗？",
+      "sha256": "8399a077d5f60b013cd74df689b94dd6cb3dfd5b3bb3ff88c3ec758e2c3e4a01"
+    },
+    {
+      "id": "110008",
+      "title": "查询经营指标",
+      "sha256": "023e16ad30e150c46971602fb7a807ff7b68775d060900a206cb84c7538042f9"
+    },
+    {
+      "id": "110020",
+      "title": "请商家补充信息",
+      "sha256": "9cd4545b0f97917e91239db215729a0a711c8588cc3a86874bd748e435cd67b0"
+    }
+  ],
+  "usageMetadataNodes": [
+    "410001",
+    "110001",
+    "310004",
+    "410022",
+    "410003",
+    "110012",
+    "110013",
+    "900001"
+  ],
+  "answerContractNodes": [
+    "310005",
+    "310004",
+    "410022"
+  ],
+  "answerContractRevision": "diagnosis-v6-grounded-facts-and-action-gate",
+  "changes": [
+    {
+      "id": "110004",
+      "stage": "understanding",
+      "fromType": "3",
+      "toType": "9",
+      "title": "理解复杂问法",
+      "inputsPreserved": [
+        "question",
+        "pageContext",
+        "history"
+      ],
+      "outputsPreserved": true,
+      "batchPreserved": true
+    },
+    {
+      "id": "110009",
+      "stage": "knowledge",
+      "fromType": "3",
+      "toType": "9",
+      "title": "回答经营知识问题",
+      "inputsPreserved": [
+        "question",
+        "history"
+      ],
+      "outputsPreserved": true,
+      "batchPreserved": true
+    },
+    {
+      "id": "310002",
+      "stage": "explanation",
+      "fromType": "3",
+      "toType": "9",
+      "title": "生成原因判断与行动建议",
+      "inputsPreserved": [
+        "materials"
+      ],
+      "outputsPreserved": true,
+      "batchPreserved": true
+    },
+    {
+      "id": "410021",
+      "stage": "repair",
+      "fromType": "3",
+      "toType": "9",
+      "title": "补全未通过核查的回答",
+      "inputsPreserved": [
+        "materials",
+        "validationErrors"
+      ],
+      "outputsPreserved": true,
+      "batchPreserved": true
+    }
+  ],
+  "edgesSha256": "7bede2d302fc186530dea34063cb59bdb8d1b60d69105e8aef9edcd0fbc9e677",
+  "hostedModelNodeCount": 0,
+  "adapterWorkflowId": "7703982450461147170",
+  "adapterVersion": "v0.0.7",
+  "adapterStageVersions": {
+    "understanding": "v0.0.6",
+    "explanation": "v0.0.6",
+    "repair": "v0.0.6",
+    "knowledge": "v0.0.6"
+  },
+  "runtimeModelBlockingCodeAdded": false
+}

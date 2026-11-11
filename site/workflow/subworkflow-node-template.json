@@ -1,0 +1,19 @@
+{
+  "id": "210005",
+  "type": "9",
+  "meta": {
+    "position": {
+      "x": 2700,
+      "y": 0
+    }
+  },
+  "data": {
+    "nodeMeta": {
+      "title": "AIDD_Execution｜匹配框架并执行诊断",
+      "icon": "https://lf3-static.bytednsdoc.com/obj/eden-cn/dvsmryvd_avi_dvsm/ljhwZthlaukjlkulzlp/icon/icon-Workflow-v2.jpg",
+      "description": "原生子工作流引用：AIDD_Execution。节点右上角“…” → 工作流详情进入下一层。",
+      "mainColor": "#00B2B2",
+      "subTitle": "工作流"
+    }
+  }
+}

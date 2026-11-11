@@ -1,0 +1,68 @@
+{
+  "baseline": "Coze v0.0.13 / git 7ee2294",
+  "adapterWorkflowId": "7703982450461147170",
+  "nodes": [
+    {
+      "id": "100001",
+      "type": "1",
+      "title": "开始"
+    },
+    {
+      "id": "120001",
+      "type": "5",
+      "title": "准备原有提示词与 DeepSeek 请求"
+    },
+    {
+      "id": "120002",
+      "type": "45",
+      "title": "调用自有 DeepSeek API"
+    },
+    {
+      "id": "120003",
+      "type": "5",
+      "title": "解析原有输出与实际 token 用量"
+    },
+    {
+      "id": "900001",
+      "type": "2",
+      "title": "结束"
+    }
+  ],
+  "edges": [
+    {
+      "sourceNodeID": "100001",
+      "targetNodeID": "120001"
+    },
+    {
+      "sourceNodeID": "120001",
+      "targetNodeID": "120002"
+    },
+    {
+      "sourceNodeID": "120002",
+      "targetNodeID": "120003"
+    },
+    {
+      "sourceNodeID": "120003",
+      "targetNodeID": "900001"
+    }
+  ],
+  "prompts": {
+    "understanding": {
+      "sha256": "2d0be8767c1603c0331b2656fb4553ae58c74959314623ee353f6e2e7b4a70a7",
+      "originalMaxTokens": 512
+    },
+    "knowledge": {
+      "sha256": "5f076a80cd1d3754dcd58f57fd0938fb6f8fbb172f2a6e9c30b02caeb390a057",
+      "originalMaxTokens": 4096
+    },
+    "explanation": {
+      "sha256": "612f05b4e8bc1f27b88815f87573dfef97f83134bc9d066f70ff3c887c6d1245",
+      "originalMaxTokens": 3072
+    },
+    "repair": {
+      "sha256": "1e1b8d8d0c67ce510a60825afc5ab0013adf06564581a101df1eaf99b2bfedb7",
+      "originalMaxTokens": 3072
+    }
+  },
+  "credentialInSource": false
+}
