@@ -1,0 +1,12 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {buildAllSceneDeployment} from '../shared/scene-deployment.js';
+import {repairLiveRevenueCatalog} from '../shared/live-revenue-config.js';
+const file=new URL('../web/curated-catalog.js',import.meta.url),from=process.argv.indexOf('--from'),text=await readFile(from>=0?process.argv[from+1]:file,'utf8');
+const before=JSON.parse(text.split('const AIDD_CURATED_CATALOG = ')[1].trim().replace(/;$/,''));
+const directory=new URL('../../../output/framework-business-rework-20261103/',import.meta.url);
+await mkdir(directory,{recursive:true});
+if(!before.sceneDeploymentVersion)await writeFile(new URL('before-catalog.json',directory),JSON.stringify(before,null,2));
+const catalog=repairLiveRevenueCatalog(buildAllSceneDeployment(before));
+await writeFile(file,`'use strict';\n// Reviewed asset definitions; publication covers all four non-overlapping scene levels.\nconst AIDD_CURATED_CATALOG = ${JSON.stringify(catalog)};\n`);
+await writeFile(new URL('deployed-catalog.json',directory),JSON.stringify(catalog,null,2));
+console.log(JSON.stringify({scenes:catalog.scenes.length,frameworks:catalog.frameworks.length,strategies:catalog.strategies.length,groups:catalog.groups.length}));

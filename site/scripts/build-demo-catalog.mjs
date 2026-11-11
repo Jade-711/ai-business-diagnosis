@@ -1,0 +1,15 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import vm from 'node:vm';
+const root=new URL('../',import.meta.url),read=path=>readFile(new URL(path,root),'utf8');
+await writeFile(new URL('web/strategy-scope.js',root),(await read('shared/strategy-scope.js')).replace(/^export /gm,''));
+for(const name of ['scene-routing','scene-business-specs','scene-deployment','live-revenue-config','published-actions'])await writeFile(new URL('web/'+name+'.js',root),(await read('shared/'+name+'.js')).replace(/^import .*;\r?\n/gm,'').replace(/^export /gm,''));
+const app=await read('web/app.js');
+const context=vm.createContext({localStorage:{getItem:()=>null,setItem(){}},document:{addEventListener(){}},window:{addEventListener(){}}});
+vm.runInContext(app.slice(0,app.indexOf('const NODES =')),context);
+for(const name of ['vendor/lz-string-1.5.0.min','catalog-storage'])vm.runInContext(await read('web/'+name+'.js'),context);
+vm.runInContext('function persist(){}; function toast(){};',context);
+for(const name of ['published-actions','strategy-scope','scene-routing','scene-business-specs','scene-deployment','live-revenue-config','merchant-data','merchant-ui','demo-coverage','curated-catalog','curated-control','aidd-data','framework-ui','coze-client','curated-merchant'])vm.runInContext(await read('web/'+name+'.js'),context);
+vm.runInContext('initAidd()',context);
+const catalog=vm.runInContext(`Object.fromEntries(Object.keys(MERCHANT_FIELDS).flatMap(fieldKey=>['week','day'].map(period=>{const runtime=aiddRuntimeConfig(fieldKey,period,{allScenes:true}),p=curatedLocalSnapshot({fieldKey,period},runtime);p.data.goal={...curatedGoalData(fieldKey,period),source:'synthetic_demo_goal'};return [fieldKey+':'+period,{config:runtime,data:p.data,dashboardConfig:aiddRuntimeConfig(fieldKey,period,{question:merchantQuestion(fieldKey,period)})}];})))`,context);
+await writeFile(new URL('worker/demo-catalog.json',root),JSON.stringify(catalog));
+console.log('Built demo resources for '+Object.keys(catalog).length+' field/period combinations');
