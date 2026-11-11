@@ -3,7 +3,8 @@
 AI经营看板与智能助手：面向内容电商商家的AI经营看板，内嵌智能助手。看板默认登录模拟商家账号与模拟经营数据，可以进入智能助手查询指标、了解经营知识、诊断经营问题。
 诊断配置后台：面向运营人员的诊断资产、策略配置平台，用于向看板与智能助手提供经营分析方法。
 
-[在线体验](https://ai-business-diagnosis-workflow.songge-huster.chatgpt.site/#merchant) ·[原扣子工作流](https://www.coze.cn/work_flow?workflow_id=7699762508375294003&space_id=7699761599875858474)
+[在线体验](https://ai-business-diagnosis-workflow.songge-huster.chatgpt.site/#merchant) ·
+[扣子工作流](https://www.coze.cn/work_flow?workflow_id=7699762508375294003&space_id=7699761599875858474)
 
 扣子编辑链接需要相应空间权限；公开查阅节点与提示词请直接阅读本仓库。
 
@@ -14,7 +15,7 @@ AI经营看板与智能助手：面向内容电商商家的AI经营看板，内�
 | 当前 Main_agent 的实际节点、代码和连线 | [扣子工作流快照](coze/main-agent-current.workflow.json) |
 | 业务路径、节点输入输出和变量 | [工作流说明](docs/workflow.md) |
 | 四处 DeepSeek 调用的系统提示词 | [提示词原文](docs/prompts.md) |
-| 前端看板、智能助手、AIDD 界面 | [site/web](site/web/) |
+| 前端看板、智能助手、诊断后台界面 | [site/web](site/web/) |
 | 网站后端、流式转发、用量和权限 | [site/worker](site/worker/) |
 | 本地预览与自行部署所需配置 | [运行说明](docs/setup.md) |
 | 哪份文件对应哪个线上版本 | [来源与边界](docs/provenance.md) |
@@ -48,7 +49,7 @@ flowchart LR
 
 图中的场景路由、API 取数、框架与策略匹配是业务步骤，在当前扣子图中由同一个代码节点调用资源服务完成。流式面板展示可核验的执行进度和费用回执，不展示模型内部推理草稿。行动为提供给商家的建议，不自动执行投放等经营操作。
 
-**AIDD 框架与策略生产是另一条独立链路：**
+**诊断后台框架与策略生产是另一条独立链路：**
 
 ```mermaid
 flowchart LR
@@ -59,7 +60,7 @@ flowchart LR
   H --> F[供商家诊断读取已发布资产]
 ```
 
-AIDD 生产不调用 Coze，也不使用商家提问的场景路由。
+诊断后台生产不调用 Coze，也不使用商家提问的场景路由。
 
 ## 版本快照
 
